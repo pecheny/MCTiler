@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+    <meta title="MCTiler" package="com.example.mctiler" version="1.0.0" company="Company Name"/>
+    <app main="Main" path="Export" file="MCTiler"/>
+    <window width="700" height="525" background="##303030" fps="16" unless="mobile"/>
+
+    <source path="Source"/>
+    <haxelib name="openfl" />
+    <haxelib name="swf" version="1.0.2"/>
+
+    <assets path="Assets" rename="assets" exclude="nme.svg|*.fla"/>
+    <icon path="Assets/nme.svg"/>
+
+</project>
